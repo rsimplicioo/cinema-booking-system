@@ -15,7 +15,19 @@
     <groupId>com.cinema</groupId>
     <artifactId>cinema-booking-system</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
+
+    <!-- Lista dos módulos que compõem o projeto -->
+    <modules>
+        <module>gateway-service</module>
+        <module>auth-service</module>
+        <module>screening-service</module>
+        <module>ticketing-service</module>
+        <module>ticketing-service</module>
+        <module>report-service</module>
+        <module>notification-service</module>
+        <module>common</module>
+    </modules>
 
     <dependencies>
         <!-- Dependência do Spring Boot Starter (para uma aplicação Spring Boot) -->
